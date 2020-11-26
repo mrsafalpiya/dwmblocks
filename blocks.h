@@ -4,13 +4,14 @@ static const Block blocks[] = {
 	{"", 		"nettraf",		1,			0},
 
 	{" | ", 		"cpufreq",		2,			0},
-
-	{" ", 		"cpubars",		2,			0},
-
-
+         
+	{"", 		"cpubars",		2,			0},
+         
 	{" | ",		"battery",		5,			0},
+         
+	{" | ", 		"nepcal date | awk '{print $1, $2}'",		60,			0},
 
-	{" | ", 		"clock",		60,			0},
+	{"", 		"datetime",		60,			0},
 	
 };
 
