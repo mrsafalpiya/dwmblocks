@@ -11,7 +11,7 @@ static const Block blocks[] = {
          
 	{" | ", 		"nepcal date | awk '{print $1, $2}'",		60,			0},
 
-	{"", 		"datetime",		60,			0},
+	{"", 		"date \"+%a %Y-%b(%m)-%d %I:%M%p\"",		60,			0},
 	
 };
 
